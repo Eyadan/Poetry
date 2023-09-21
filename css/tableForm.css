@@ -21,21 +21,29 @@ h1 {
 
 .Content p {
     margin-left: 70px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Verdana, sans-serif;
     font-size: 20px;
-    text-shadow: 15px 15px 20px #90b4d6;
 }
 
 p {
+    color: #7b7c7e;
     margin: 10px 30px 1px;
     font-size: 15px;
-    text-shadow: 15px 15px 20px #90b4d6;
+    font-style:oblique;
 }
 
 ul{
     border-bottom: 2px solid gray;
 }
 
+.bg {
+    background-color: #F7D9C4;
+    border-radius: 20px;
+}
+
+.bgt {
+    background-color: #F7C6DB;
+}
 
 li {
     list-style-image: url("../image/correct.png");
@@ -43,6 +51,7 @@ li {
     font-weight: bold;
     font-size: 16px;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 table {
@@ -50,7 +59,6 @@ table {
     border-spacing: 0px;
     width: 1300px;
     height: 300px;
-    border: 3px solid gray;
     border-radius: 8px;
 }
 
@@ -58,6 +66,7 @@ header {
     background-color: #e5a5f5;
     padding-bottom: 18px;
     padding-top: 20px;
+    border-radius: 20px;
 }
 
 th, td {
@@ -70,17 +79,18 @@ th, td {
 th, td {
     text-align: left;
     background-color: #e0e9f0;
-    border-top: 1px solid #f1f8fe;
-    border-bottom: 1px solid #cbd2d8;
-    border-right: 1px solid #cbd2d8;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
 }
 
 tr.head th {
     color: #fff;
     background-color: #c890d6;
-    border-bottom: 2px solid #547ca0;
-    border-right: 1px solid #749abe;
-    border-top: 1px solid #90b4d6;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-top: 2px solid  gray;
+    border-left: 2px solid gray;
     text-align: center;
     text-shadow: -1px -1px 1px #666666;
     letter-spacing: 0.15em;
@@ -110,12 +120,14 @@ fieldset {
     width: 350px;
     margin-top: 20px;
     border: 1px solid #d6d6d6;
-    background-color: #ffffff;
+    background-color: #ffdfc9;
     line-height: 1.6em;
     margin: 50px auto auto auto;
 }
 
 legend {
+    border: 2px solid #c890d6;
+    background-color: #F7C6DB;
     font-style: italic;
     color: #666666;
 }
