@@ -53,7 +53,8 @@ li {
     font-size: 16px;
     margin-left: 50px;
     margin-bottom: 20px;
-}
+    color: #e0dee0;
+} 
 
 table {
     margin: auto auto auto auto;
